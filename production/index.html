@@ -12,7 +12,7 @@
 <body>
 <div class="wrapper">
 
-<header>
+<header id="header">
   <div class="row">
     <div class="col-1-2 cancel" id="logo"><img src="imgs/twinfinch-logo.svg" alt="" /></div>
     <div class="col-1-2">
@@ -48,79 +48,121 @@
     </div>
     <div class="col-1-2" id="quote">
         <blockquote>“This extraordinary coffee almost defies description with its aromatic complexity while retaining a classic clarity of structure.”</blockquote>
-        <p>-- Coffee Review</p>
+        <p>-- <a>Coffee Review</a></p>
     </div>
 </div>
 
 <div class="row" id="products">
-  <div class="col-1-2" id="probg">
+  <div class="col-1-2" id="roasts">
     <div class="row">
-      <div class="col-1-3 centertxt" id="proimg1">
-        <h3><a name="roasts">Sunrise</a></h3>
-        <p>Light</p>
-        <p>La Chiapas, Mexico</p>
-      </div>
-      <div class="col-2-3">
-        <p>Light, fruity acidity which complements its fully nutty body and unique spicy tones.</p>
-        <p>1lb $17.95</p>
-        <a id="button">Buy Now!</a>
-      </div>
+    	<div class="prod-bg flex-wrap">
+          <div class="col-1-3 centertxt flex-box" id="proimg1">
+            <header>
+            	<h3>Sunrise</h3>
+            </header>
+            <p>Light</p>
+            <p>La Chiapas, Mexico</p>
+          </div>
+          <div class="col-2-3 pad-roast flex-box">
+            <p>Light, fruity acidity which complements its fully nutty body and unique spicy tones.</p>
+            <p>1lb $17.95</p>
+            <p><a>Buy Now!</a></p>
+          </div>
+        </div>
     </div>
   </div>
-  <div class="col-1-2" id="probg">
-    <div class="col-1-3">
-      <h3>Midnight</h3>
-      <p>Dark</p>
-      <p>Latin America</p>
-    </div>
-    <div class="col-2-3">
-      <p>Roasted into second crack for a big, bold and dark cup. Beans display oil.</p>
-      <p>1lb $17.95</p>
-      <a id="button">Buy Now!</a>
+  <div class="col-1-2">
+    <div class="row">
+    	<div class="prod-bg flex-wrap">
+          <div class="col-1-3 centertxt flex-box" id="proimg1">
+            <header>
+            	<h3>Midnight</h3>
+            </header>
+            <p>Dark</p>
+            <p>Latin America</p>
+          </div>
+          <div class="col-2-3 pad-roast flex-box">
+            <p>Roasted into second crack for a big, bold and dark cup. Beans display oil.</p>
+            <p>1lb $17.95</p>
+            <p><a>Buy Now!</a></p>
+          </div>
+        </div>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-1-2" id="probg">
+   <div class="col-1-2" id="roasts">
     <div class="row">
-      <div class="col-1-3">
-        <h3>House Blend</h3>
-        <p>Medium</p>
-        <p>Cajamarca &amp; Moyobamba Regions, Peru</p>
-      </div>
-      <div class="col-2-3">
-        <p>Hint of citrus, complemented by flavors of dark chocolate, peanut and light pepper notes.</p>
-        <p>1lb $17.95</p>
-        <a id="button">Buy Now!</a>
-      </div>
+    	<div class="prod-bg flex-wrap">
+          <div class="col-1-3 centertxt flex-box" id="proimg1">
+            <header>
+            	<h3>House Blend</h3>
+            </header>
+            <p>Medium</p>
+            <p>Cajamarca and Moyobamba, Peru</p>
+          </div>
+          <div class="col-2-3 pad-roast flex-box">
+            <p>Hint of citrus, complemented by flavors of dark chocolate, peanut and light pepper notes.</p>
+            <p>1lb $17.95</p>
+            <p><a>Buy Now!</a></p>
+          </div>
+        </div>
     </div>
   </div>
-  <div class="col-1-2" id="probg">
+  <div class="col-1-2">
     <div class="row">
-      <div class="col-1-3">
-        <h3>Espresso</h3>
-        <p>Light|Medium|Dark</p>
-        <p>Latin America, Africa, Indonesia</p>
-      </div>
-      <div class="col-2-3">
-        <p>Clean, a little roasty, sumptuous, crema, unfussy, delicious.</p>
-        <p>1lb $19.95</p>
-        <a id="button">Buy Now!</a>
-      </div>
+    	<div class="prod-bg flex-wrap">
+          <div class="col-1-3 centertxt flex-box" id="proimg1">
+            <header>
+            	<h3>Espresso</h3>
+            </header>
+            <p>Light | Medium | Dark</p>
+            <p>Latin America, Africa, Indonesia</p>
+          </div>
+          <div class="col-2-3 pad-roast flex-box">
+            <p>Clean, a little roasty, sumptuous, crema,unfussy, delicious.</p>
+            <p>1lb $19.95</p>
+            <p><a>Buy Now!</a></p>
+          </div>
+        </div>
     </div>
   </div>
 </div>
 
-<div class="row" id="about">
-  <div class="col-1-2"> <img src="" alt="" /> </div>
-  <div class="col-1-2">
-    <h2><a name="about">About</a></h2>
+<div class="row flex-wrap" id="about" name="about">
+  <div class="col-1-2 floatl flex-box" id="aboutimg"></div>
+  <div class="col-1-2 floatr flex-box" id="abouttxt">
+    <header><h2>About</h2></header>
     <p>Twin Finch Roastery is an authentic micro­roastery; small, dedicated, and highly focused on quality. We have a constantly evolving, hand picked selection of fine coffee origins and delicious blends engineered to help you brew a cafe­quality cup at home. Our coffee is roasted in a hot air, refractory lined roaster with an extraordinary level of control.</p>
     <p>The significance of relying on a high volume of hot air to roast coffee beans can't be understated. Most small coffee roasters use a single stage burner which offers virtually no control during the roasting process. The refractory significantly reduces hot spots which can damage coffee beans and produces a much more even roasting environment.</p>
     <p>Online orders usually ship quickly and arrive within three business days. We only ship the freshest coffee and your satisfaction is guaranteed. Our rotating, featured coffees are roasted on a more limited basis and your order may be held until the next time a batch hits the roaster. We only ship whole bean, but will grind for you in­store per request. You can buy from us directly at our Seattle storefront located at 457 NW Market Street.</p>
     <p><a>Contact us!</a></p>
   </div>
+</div>
+
+<div class="row" id="contact" name="contact">
+	<form>
+	<div class="col-1-1" id="contacthead">
+    	<header><h2>Contact</h2></header>
+    </div>
+    <div class="col-1-2 floatl">
+    	<label for="firstName">First Name</label>
+        <input type="text" id="firstName">
+    </div>
+    <div class="col-1-2 floatr">
+    	<label for="lastName">Last Name</label>
+        <input type="text" id="lastName">
+    </div>
+    <div class="col-1-2">
+        <label for="emailAddress">Email Address</label>
+        <input type="email" id="emailAddress">
+    </div>
+    <div class="col-1-1 floatl" id="textblock">
+    	<textarea name="comment" form="userform">Enter text here...</textarea>
+    </div>
+    <div class="col-1-2"></div>
+    </form>
 </div>
 
 <div class="row">
